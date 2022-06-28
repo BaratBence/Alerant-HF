@@ -53,15 +53,4 @@ public class Race {
         }
         return drivers;
     }
-
-    @Override
-    public String toString() {
-        return "Race{" +
-                "name='" + name + '\'' +
-                ", round=" + round +
-                ", multiplier=" + multiplier +
-                ", result=" + result.get(1).getName() +
-                ", fastestLap=" + fastestLap.getName() +
-                '}';
-    }
 }

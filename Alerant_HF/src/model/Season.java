@@ -19,11 +19,4 @@ public class Season {
         return races;
     }
 
-    @Override
-    public String toString() {
-        return "Season{" +
-                "year=" + year +
-                ", races=" + races +
-                '}';
-    }
 }
